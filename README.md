@@ -1,2 +1,2 @@
-# nametbd
-name
+# django-devops
+django-devops
