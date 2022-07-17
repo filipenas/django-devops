@@ -1,0 +1,16 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Shoutrrr
+        uses: containrrr/shoutrrr-action@v1
+        with:
+          url: "telegram://5500589481:AAFjQS1EspeqVHOsxc1eUAZLYd8BhjNodZM@telegram?chats=-1001507435072"
+          title: TEST
+          message: TEST
